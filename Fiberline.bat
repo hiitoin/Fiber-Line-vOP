@@ -94,7 +94,7 @@ goto A
 
 :B
 net user Administrator yes
-if %errorlevel%== 2 (
+if %errorlevel%== 0 (
 goto work
 )
 goto bad
