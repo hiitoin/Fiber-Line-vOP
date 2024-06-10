@@ -169,6 +169,7 @@ goto ping
 if /I %Fiber%== help (
 echo All commands
 echo Try dev/off to off it
+echo Try dev/op
 echo Try Fibercmd/on to go to a cmd
 echo Try Fiberpower/on to go to  a powershell
 echo Try clear to clear
