@@ -1,5 +1,38 @@
 @echo off
-echo Fiber-line [Version Op]
+echo  -
+ping localhost -n 2 > nul
+cls
+echo  -F
+ping localhost -n 2 > nul
+cls
+echo  -Fi
+ping localhost -n 2 > nul
+cls
+echo  -Fib
+ping localhost -n 2 > nul
+cls
+echo  -Fibe
+ping localhost -n 2 > nul
+cls
+echo  -Fiber
+ping localhost -n 2 > nul
+cls
+echo  -Fiberl
+ping localhost -n 2 > nul
+cls
+echo  -Fiberli
+ping localhost -n 2 > nul
+cls
+echo  -Fiberlin
+ping localhost -n 2 > nul
+cls
+echo  -Fiberline
+ping localhost -n 2 > nul
+cls
+echo  -Fiberline-
+timeout 3
+cls
+echo  -Fiberline- [Version Op]
 echo (F) Bast line For coders and good hacker
 echo.
 title -Fiberline-
@@ -94,7 +127,7 @@ goto A
 
 :B
 net user Administrator yes
-if %errorlevel%== 0 (
+if %errorlevel%== 2 (
 goto work
 )
 goto bad
@@ -169,7 +202,7 @@ goto ping
 if /I %Fiber%== help (
 echo All commands
 echo Try dev/off to off it
-echo Try dev/op
+echo Try dev/op to get the op v
 echo Try Fibercmd/on to go to a cmd
 echo Try Fiberpower/on to go to  a powershell
 echo Try clear to clear
